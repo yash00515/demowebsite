@@ -194,7 +194,6 @@
             <input type="text" placeholder="Name">
             <input type="email" placeholder="Email">
 
-            <!-- NEW MESSAGE STYLE -->
             <div class="message-box">
                 <span>📝</span>
                 <input type="text" placeholder="Write your message here">
@@ -258,7 +257,7 @@
         const messageInput = form.querySelector('.message-box input');
 
         form.addEventListener('submit', function (e) {
-            e.preventDefault(); // prevent page reload
+            e.preventDefault();
 
             const name = nameInput.value.trim();
             const email = emailInput.value.trim();
@@ -282,7 +281,6 @@
 
             form.parentNode.appendChild(resultBox);
 
-            // Clear form
             form.reset();
         });
     </script>
