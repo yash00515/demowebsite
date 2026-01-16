@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Awareness</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logos {
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            font-size: large;
+        }
+
+        .main1 {
+            display: flex;
+            font-size: larger;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #e8f5e9;
+            height: 90px;
+            width: 100%;
+        }
+
+        nav p {
+            color: rgb(72, 194, 45);
+        }
+
+        p:hover {
+            color: darkgreen;
+        }
+
+        nav p:hover {
+            color: green;
+            transition: 0.4s;
+        }
+
+        .footer {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            gap: 10px;
+            background-color: black;
+            color: white;
+        }
+
+        .gold-line {
+            height: 1px;
+            background-color: #C5A059;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .c1 {
+            border: 2px solid forestgreen;
+            width: 40%;
+            text-align: center;
+        }
+
+        .cards {
+            text-align: center;
+        }
+
+        .self-check {
+            max-width: 550px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+        }
+
+        .self-check h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .note {
+            font-size: 14px;
+            color: #555;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .self-check label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .self-check input {
+            margin-right: 6px;
+        }
+
+        .self-check button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            background: #2563eb;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .self-check button:hover {
+            background: #1e40af;
+        }
+
+        .result-box {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        @media (max-width) {
+            div {
+                width: 100%;
+                max-width: 600px;
+                /* optional, max size limit */
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="main1">
+
+            <div class="img">
+                <img class="i1" src="./images/Health_Logo-removebg-preview.png " alt="Logo" height="120px"
+                    width="110px">
+            </div>
+
+            <div class="menu">
+                <p><a href="./HealthAware.html">Home</a></p>
+                <p> <a href="./Awarenesspage.html">Awareness</a> </p>
+                <p> <a href="./Addictions.html">Addiction</a> </p>
+                <p> <a href="./Prevention.html">Prevention</a> </p>
+                <p> <a href="./Contacts.html">Contact Us</a> </p>
+            </div>
+
+
+            <div class="logos">
+                <i class="fa-solid fa-magnifying-glass" style="color: #63E6BE;"></i>
+                <i class="fa-regular fa-circle-user" style="color: #63E6BE;"></i>
+            </div>
+        </div>
+    </nav><br>
+    <br>
+
+
+    <section class="max-w-6xl mx-auto px-4 py-12">
+
+        <div class="text-center mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800">
+                Prevention for a Healthy Life
+            </h1>
+            <p class="text-gray-600 mt-2">
+                Small daily habits can protect your body, mind, and relationships.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-green-600 mb-2">
+                    Healthy Daily Routine
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Regular sleep, balanced meals, and a planned routine reduce stress and
+                    prevent unhealthy habits.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                    Mental & Emotional Care
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Managing stress, expressing emotions, and maintaining inner peace
+                    strengthens mental well-being.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-purple-600 mb-2">
+                    Digital & Habit Control
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Limiting screen time and being mindful of habits improves focus and
+                    emotional balance.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-orange-600 mb-2">
+                    Physical Activity & Self-care
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Exercise, proper rest, and self-care keep the body active and the mind
+                    refreshed.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-lg transition md:col-span-2 lg:col-span-1">
+                <h3 class="text-xl font-semibold text-red-600 mb-2">
+                    Support & Awareness
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Family support, open communication, and seeking help create a strong
+                    foundation for prevention.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="mt-12 text-center bg-green-100 p-6 rounded-xl">
+            <p class="text-green-800 font-medium">
+                Prevention begins with small, conscious choices made every day.
+            </p>
+        </div>
+
+    </section>
+    <br>
+    <section class="max-w-6xl mx-auto px-4 py-12  d1">
+
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-bold text-gray-800">
+                Prevention – Practical Life Tips
+            </h2>
+            <p class="text-gray-600 mt-2">
+                Small habits and good company can bring big positive change.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-green-600 mb-2">
+                    Stay Connected with Positive People
+                </h3>
+                <p class="text-gray-700 text-sm mb-2">
+                    Being around supportive and positive people reduces loneliness and unhealthy habits.
+                </p>
+                <p class="text-gray-600 text-sm italic">
+                    (સકારાત્મક અને સહાયક લોકોની સાથે રહેવું એકલતા અને અસ્વસ્થ આદતો ઘટાડે છે.)
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                    Share Your Thoughts Openly
+                </h3>
+                <p class="text-gray-700 text-sm mb-2">
+                    Talking to trusted family or friends helps release emotional pressure and stress.
+                </p>
+                <p class="text-gray-600 text-sm italic">
+                    (વિશ્વાસુ પરિવારજનો અથવા મિત્રો સાથે વાત કરવાથી માનસિક તણાવ ઓછો થાય છે.)
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-purple-600 mb-2">
+                    Engage in Healthy Group Activities
+                </h3>
+                <p class="text-gray-700 text-sm mb-2">
+                    Activities like walking, exercise, or volunteering create discipline and positive focus.
+                </p>
+                <p class="text-gray-600 text-sm italic">
+                    (વોકિંગ, વ્યાયામ અથવા સમૂહ પ્રવૃત્તિઓ શિસ્ત અને સકારાત્મક ધ્યાન વિકસાવે છે.)
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-orange-600 mb-2">
+                    Practice Meditation and Inner Calm
+                </h3>
+                <p class="text-gray-700 text-sm mb-2">
+                    Meditation, prayer, or listening to bhajans brings peace and emotional balance.
+                </p>
+                <p class="text-gray-600 text-sm italic">
+                    (ધ્યાન, પ્રાર્થના અથવા ભજન સાંભળવાથી મનને શાંતિ અને સંતુલન મળે છે.)
+                </p>
+            </div>
+
+        </div>
+
+        <div class="mt-10 bg-green-100 p-6 rounded-xl text-center">
+            <p class="text-green-800 font-medium">
+                Staying in good company and following positive habits can gradually reduce addiction.
+            </p>
+            <p class="text-green-700 italic text-sm mt-1">
+                (સારા સંગમાં રહી અને સકારાત્મક આદતો અપનાવવાથી લત ધીમે ધીમે દૂર થઈ શકે છે.)
+            </p>
+        </div>
+
+    </section>
+    <br>
+    <section class="self-check">
+        <h2>🧠 Self-Check (આત્મ ચકાસણી)</h2>
+        <p class="note">
+            This self-check is for awareness only, not a diagnosis.<br>
+            આ આત્મ ચકાસણી માત્ર જાગૃતિ માટે છે, સારવાર માટે નથી.
+        </p>
+
+        <form id="selfCheckForm">
+            <label>
+                <input type="checkbox" value="1">
+                Do you often feel stressed or restless?<br>
+                તમે વારંવાર તણાવ કે બેચેની અનુભવતા હો?
+            </label>
+
+            <label>
+                <input type="checkbox" value="1">
+                Has your sleep pattern changed recently?<br>
+                તાજેતરમાં તમારી ઊંઘની આદત બદલાઈ છે?
+            </label>
+
+            <label>
+                <input type="checkbox" value="1">
+                Do you spend too much time on mobile or social media?<br>
+                તમે મોબાઈલ કે સોશિયલ મીડિયા પર વધારે સમય વિતાવો છો?
+            </label>
+
+            <label>
+                <input type="checkbox" value="1">
+                Do you avoid sharing problems with others?<br>
+                તમે તમારી સમસ્યાઓ કોઈને કહતા ટાળો છો?
+            </label>
+
+            <label>
+                <input type="checkbox" value="1">
+                Do you depend on any habit to feel relaxed?<br>
+                આરામ મેળવવા માટે કોઈ આદત પર આધાર રાખો છો?
+            </label>
+
+            <button type="button" onclick="checkAwareness()">
+                Check My Awareness | મારી જાગૃતિ તપાસો
+            </button>
+        </form>
+
+        <div id="result" class="result-box"></div>
+    </section>
+
+
+    <script>
+        function checkAwareness() {
+            const checkboxes = document.querySelectorAll('#selfCheckForm input[type="checkbox"]');
+            let score = 0;
+
+            checkboxes.forEach(cb => {
+                if (cb.checked) score++;
+            });
+
+            const resultBox = document.getElementById("result");
+            resultBox.style.display = "block";
+
+            if (score <= 1) {
+                resultBox.style.background = "#d4edda";
+                resultBox.innerHTML = `
+      <strong>You seem balanced 🌱</strong><br>
+      You are doing well. Continue healthy habits.<br><br>
+      તમે સંતુલિત લાગો છો. તમારી સકારાત્મક આદતો જાળવો.
+    `;
+            }
+            else if (score <= 3) {
+                resultBox.style.background = "#fff3cd";
+                resultBox.innerHTML = `
+      <strong>Some imbalance noticed 🌼</strong><br>
+      Small lifestyle changes can help you feel better.<br><br>
+      થોડી અસમતુલતા જોવા મળે છે. નાના ફેરફાર મદદરૂપ થઈ શકે છે.
+    `;
+            }
+            else {
+                resultBox.style.background = "#f8d7da";
+                resultBox.innerHTML = `
+      <strong>You may need more care 💙</strong><br>
+      You are not alone. Talking to someone you trust can help.<br><br>
+      તમને વધુ ધ્યાનની જરૂર હોઈ શકે. વિશ્વાસપાત્ર વ્યક્તિ સાથે વાત કરો.
+    `;
+            }
+        }
+    </script>
+
+
+
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer"><br>
+            <div>
+                <h1>This website is created for health awareness and educational purposes only.
+                    It does not replace professional medical advice.</h1>
+            </div>
+            <br>
+            <div class="Quick-links">
+                <a href="./HealthAware.html">
+                    <p>Home</p>
+                </a>
+                <a href="./Awarenesspage.html">
+                    <p>Awareness</p>
+                </a>
+                <a href="./Addictions.html">
+                    <p>Addiction</p>
+                </a>
+                <a href="./Prevention.html">
+                    <p>Prevention</p>
+                </a>
+                <a href="./Contacts.html">
+                    <p>Contact</p>
+                </a>
+            </div>
+            <div class="email">
+                <p>Email: support@Healthproject.com</p>
+                <p>Help Line: Coming Soon</p>
+            </div>
+
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i
+                    class="fa-brands fa-twitter"></i>
+            </div>
+            <br>
+            <hr class="gold-line">
+            <br>
+
+            <div class="lastFooter">
+                © 2026 Health Awareness Project. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: linear-gradient(to left, skyblue, gold)
+        }
+
+        .contact-box {
+            width: 420px;
+            margin: 60px auto;
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .desc {
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .contact-info {
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+        .simple-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        .message-box {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        .message-box input {
+            border: none;
+            outline: none;
+            width: 100%;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #4f46e5;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        small {
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logos {
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            font-size: large;
+        }
+
+        .main1 {
+            display: flex;
+            font-size: larger;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #e8f5e9;
+            height: 90px;
+            width: 100%;
+        }
+
+        nav p {
+            color: rgb(72, 194, 45);
+        }
+
+        p:hover {
+            color: darkgreen;
+        }
+
+        nav p:hover {
+            color: green;
+            transition: 0.4s;
+        }
+
+        .footer {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            gap: 10px;
+            background-color: black;
+            color: white;
+        }
+
+        .gold-line {
+            height: 1px;
+            background-color: #C5A059;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media(max-width:425px) {
+            div {
+                width: 100%;
+                max-width: 600px;
+                /* optional, max size limit */
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="main1">
+
+            <div class="img">
+                <img class="i1" src="./images/Health_Logo-removebg-preview.png " alt="Logo" height="120px"
+                    width="110px">
+            </div>
+
+            <div class="menu">
+                <p><a href="./HealthAware.html">Home</a></p>
+                <p> <a href="./Awarenesspage.html">Awareness</a> </p>
+                <p> <a href="./Addictions.html">Addiction</a> </p>
+                <p> <a href="./Prevention.html">Prevention</a> </p>
+                <p> <a href="./Contacts.html">Contact Us</a> </p>
+            </div>
+
+
+            <div class="logos">
+                <i class="fa-solid fa-magnifying-glass" style="color: #63E6BE;"></i>
+                <i class="fa-regular fa-circle-user" style="color: #63E6BE;"></i>
+            </div>
+        </div>
+    </nav> <br>
+
+
+
+    <section class="contact-box">
+        <h2>Let’s Connect</h2>
+        <p class="desc">
+            This is a learning and awareness project.
+        </p>
+
+        <div class="contact-info">
+            <p>📧 support@awarenessproject.com</p>
+            <p>📞 Helpline: Coming Soon</p>
+        </div>
+
+        <form class="simple-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+
+            <!-- NEW MESSAGE STYLE -->
+            <div class="message-box">
+                <span>📝</span>
+                <input type="text" placeholder="Write your message here">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <small>
+            No personal data is stored.
+        </small>
+    </section>
+
+    <br>
+    <footer>
+        <div class="footer"><br>
+            <div>
+                <h1>This website is created for health awareness and educational purposes only.
+                    It does not replace professional medical advice.</h1>
+            </div>
+            <br>
+            <div class="Quick-links">
+                <a href="./HealthAware.html">
+                    <p>Home</p>
+                </a>
+                <a href="./Awarenesspage.html">
+                    <p>Awareness</p>
+                </a>
+                <a href="./Addictions.html">
+                    <p>Addiction</p>
+                </a>
+                <a href="./Prevention.html">
+                    <p>Prevention</p>
+                </a>
+                <a href="./Contacts.html">
+                    <p>Contact</p>
+                </a>
+            </div>
+            <div class="email">
+                <p>Email: support@Healthproject.com <br>
+                    Help Line: Coming Soon</p>
+            </div>
+
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i
+                    class="fa-brands fa-twitter"></i>
+            </div>
+            <br>
+            <hr class="gold-line">
+            <br>
+
+            <div class="lastFooter">
+                © 2026 Health Awareness Project. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script>
+        const form = document.querySelector('.simple-form');
+        const nameInput = form.querySelector('input[type="text"]');
+        const emailInput = form.querySelector('input[type="email"]');
+        const messageInput = form.querySelector('.message-box input');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault(); // prevent page reload
+
+            const name = nameInput.value.trim();
+            const email = emailInput.value.trim();
+            const message = messageInput.value.trim();
+
+            if (name === '' || email === '' || message === '') {
+                alert('Please fill all fields correctly. \n(બધા ફીલ્ડ સાચી રીતે ભરો)');
+                return;
+            }
+
+            if (!email.includes('@') || !email.includes('.')) {
+                alert('Please enter a valid email. \n(સાચું ઈમેલ દાખલ કરો)');
+                return;
+            }
+
+            const resultBox = document.createElement('p');
+            resultBox.style.background = '#d1fae5';
+            resultBox.style.padding = '10px';
+            resultBox.style.marginTop = '10px';
+            resultBox.innerText = 'Thank you! Your message is received for practice purpose. ';
+
+            form.parentNode.appendChild(resultBox);
+
+            // Clear form
+            form.reset();
+        });
+    </script>
+
+
+</body>
+
+</html>

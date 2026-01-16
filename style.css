@@ -1,0 +1,162 @@
+body {
+    overflow-x: hidden;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logos {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.main1 {
+    display: flex;
+    font-size: larger;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8f5e9;
+    height: 90px;
+    width: 100%;
+}
+
+nav p {
+    color: rgb(72, 194, 45);
+}
+p:hover{
+    color: darkgreen;
+}
+
+nav p:hover {
+    color: green;
+    transition: 0.4s;
+}
+
+.t1 {
+    font-size: 50px;
+}
+
+#message {
+    margin-left: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.btn1 {
+    border-radius: 10px;
+    height: 47px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: springgreen;
+    transition: 0.5s;
+}
+
+.text1 {
+    margin-left: 10px;
+    font-size: 29px;
+}
+
+.text1:active {
+    background-color: darkgoldenrod;
+}
+
+.text1:hover {
+    color: rgb(4, 178, 13);
+    transition: 0.5s;
+}
+
+.textimg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.awaremsg {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+.q1 {
+    font-size: x-large;
+}
+
+.g1 {
+    border-color: darkgoldenrod;
+    color: forestgreen;
+}
+
+.mainimg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.s1 {
+
+    height: 492px;
+    width: 100vw;
+}
+
+.a1 {
+    text-align: center;
+}
+
+.d1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.tips {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    color: white;
+}
+  .gold-line {
+            height: 1px;
+            background-color: #C5A059;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+@media (max-width:425px) {
+    .main1 {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .logos {
+        justify-content: center;
+    }
+}

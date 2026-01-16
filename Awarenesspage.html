@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Awareness App | Your Health Partner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class'
+        }
+    </script>
+
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(135deg, #358ab0, #e6d9ff, #ffe4ec);
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logos {
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            font-size: large;
+        }
+
+        .main1 {
+            display: flex;
+            font-size: larger;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #e8f5e9;
+            height: 90px;
+            width: 100%;
+        }
+
+        nav p {
+            color: rgb(72, 194, 45);
+        }
+
+        p:hover {
+            color: darkgreen;
+        }
+
+        nav p:hover {
+            color: green;
+            transition: 0.4s;
+        }
+
+        .t1 {
+            font-size: 50px;
+        }
+
+        .head {
+            margin: 10px;
+            font-size: larger;
+            color: black;
+        }
+
+        .p1 {
+            font-size: larger;
+        }
+
+        .a1 {
+            text-align: center;
+        }
+
+        .card-text {
+            font-size: x-large;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .i1 {
+            height: 200px;
+            width: 390px;
+        }
+
+        .i2 {
+            height: 300px;
+            width: 360px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .image2 {
+
+            float: right;
+        }
+
+        .image3 {
+            margin-right: 10px;
+
+        }
+
+        .footer {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            gap: 10px;
+            background-color: black;
+            color: white;
+        }
+
+        .gold-line {
+            height: 1px;
+            background-color: #C5A059;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media(min-width:1px) and (max-width:425px) {
+
+            .menu {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .logos {
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .q1 {
+                transform: scale(3.5);
+                transition: transform 0.3s ease;
+            }
+
+            div {
+                width: 100%;
+                max-width: 600px;
+            }
+
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="main1">
+
+            <div class="img">
+                <img class="i1" src="./images/Health_Logo-removebg-preview.png " alt="Logo" height="120px"
+                    width="110px">
+            </div>
+
+            <div class="menu">
+                <p><a href="./HealthAware.html">Home</a></p>
+                <p> <a href="./Awarenesspage.html">Awareness</a> </p>
+                <p> <a href="./Addictions.html">Addiction</a> </p>
+                <p> <a href="./Prevention.html">Prevention</a> </p>
+                <p> <a href="./Contacts.html">Contact Us</a> </p>
+            </div>
+
+
+            <div class="logos">
+                <i class="fa-solid fa-magnifying-glass" style="color: #63E6BE;"></i>
+                <i class="fa-regular fa-circle-user" style="color: #63E6BE;"></i>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="head"> Here is Very Common Dieases&Problems</h1><br><br>
+
+    <div class="main">
+        <p>
+        <p class="p1">1.Stress</p>
+        <br>
+        <p>Problems(સમસ્યાઓ)</p>
+        <br>
+
+        <p> Long-term mental pressure affecting mind and body. <br>
+            (લાંબા સમય સુધી ચાલતો માનસિક તણાવ મન અને શરીર બંને પર અસર કરે છે.)
+        </p>
+        </p>
+        <br>
+        <h2>Symptoms(લક્ષણો)</h2>
+        <br>
+
+        <p>• Headaches(માથાનો દુખાવો) <br>
+            • Sleep issues(ઊંઘ ન આવવી) <br>
+            • Irritability((ચિડચિડાપણું))
+        </p>
+        <br><br>
+        <p> Can weaken focus and reduce work or study performance. <br>
+            (તણાવ ધ્યાન શક્તિ ઘટાડે છે અને કામ કે અભ્યાસની કાર્યક્ષમતા પર અસર કરે છે.)
+            <br><br>
+            May disturb sleep patterns and increase physical fatigue. <br>
+            (તણાવ ઊંઘની પ્રક્રિયામાં ખલેલ પહોંચાડે છે અને શારીરિક થાક વધારે છે.) <br> <br>
+
+            Long-term stress can affect emotional balance and personal relationships. <br>
+            (લાંબા સમય સુધી ચાલતો તણાવ ભાવનાત્મક સંતુલન અને વ્યક્તિગત સંબંધોને અસર કરી શકે છે.)
+        </p>
+        <br><br>
+        <p>
+            Practice regular breaks and relaxation
+            Taking short breaks during work or study helps calm the mind. <br><br>
+            (કામ કે અભ્યાસ દરમિયાન નિયમિત વિરામ લેવું મનને શાંત રાખવામાં મદદ કરે છે.) <br><br>
+
+            Engage in physical activity daily
+            Walking, stretching, or light exercise releases stress from the body. <br><br>
+            (ચાલવું, સ્ટ્રેચિંગ અથવા હળવો વ્યાયામ તણાવ ઘટાડવામાં મદદ કરે છે.) <br><br>
+
+            Maintain healthy sleep habits
+            Proper sleep restores energy and improves emotional balance. <br><br>
+            (યોગ્ય અને નિયમિત ઊંઘ શરીરને શક્તિ આપે છે અને ભાવનાત્મક સંતુલન સુધારે છે.) <br><br>
+
+            Share feelings with trusted people
+            Talking openly with family or friends reduces emotional burden. <br><br>
+            (વિશ્વાસપાત્ર વ્યક્તિ સાથે મનની વાત કરવાથી માનસિક ભાર ઓછો થાય છે.) <br><br>
+
+            Limit screen time and practice mindfulness
+            Reducing screen usage and focusing on the present moment calms the mind. <br><br>
+            (સ્ક્રીન સમય ઘટાડવો અને વર્તમાન ક્ષણ પર ધ્યાન કેન્દ્રિત કરવું મનને શાંત કરે છે.) <br><br>
+
+        <h2>Follow this regularly — 100% beneficial for your mind and body. <br><br>
+            (નિયમિત અનુસરણ કરવાથી — તમારા મન અને શરીર માટે 100% લાભદાયક.)</h2> <br>
+
+        Practice meditation, prayer, or devotional music
+        Spending time in meditation or listening to bhajans can bring inner peace and mental calmness. <br>
+        (ધ્યાન કરવું અથવા ભજન સાંભળવું મનને ખૂબ શાંતિ આપે છે અને આંતરિક સંતુલન લાવવામાં મદદ કરે છે.)
+
+
+        <br><br>
+
+        </p>
+
+    </div>
+
+    <br>
+    <div class="img a1 ">
+        <div class="card mb-3" style="max-width: 700px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./images/Yoga.png" class="rounded-start i1" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">YOGA</h5>
+                        <p class="card-text">
+                            Engage in physical activity daily <br>
+                            Walking, stretching, or light exercise releases stress from the body.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div class="image2">
+        <div class="img a2  ">
+            <div class="card mb-3" style="max-width: 700px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/Screen limit.png" class="rounded-start i1" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Screen Off</h5>
+                            <p class="card-text">
+                                Limit screen time and practice <br> mindfulness
+                                Reducing screen usage <br> and focusing on the present moment calms the mind.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br><br><br><br><br><br><br><br>
+    <div class="image3">
+        <div class="img a3 ">
+            <div class="card mb-3" style="max-width: 700px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/Dhyan.png" class="rounded-start i1" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title">Bhajan</h2>
+                            <p class="card-text">
+                                Practice meditation, prayer, or <br> devotional music
+                                Spending time in meditation or listening to bhajans can bring inner peace and mental
+                                calmness.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <section class="bg-gray-50 py-12">
+        <div class="max-w-6xl mx-auto px-4">
+
+            <!-- Section Heading -->
+            <h2 class="text-2xl font-semibold text-center mb-10 text-gray-800">
+                Awareness & Early Action
+            </h2>
+
+            <!-- Cards Container -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 q1">
+
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg q1 transition">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966486.png" alt="Warning"
+                        class="w-14 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Know the Early Signs</h3>
+                    <p class="text-gray-600 text-sm">
+                        Continuous tiredness, stress, or sleep issues should not be ignored.
+                        Awareness helps in taking timely action.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4320/4320371.png" alt="Impact"
+                        class="w-14 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Impact on Daily Life</h3>
+                    <p class="text-gray-600 text-sm">
+                        Health issues affect focus, work, and relationships.
+                        Understanding impact is the first step toward change.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+                    <img src="./images/prevent_logo-removebg-preview.png" alt="Prevention" class="w-14 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Prevention Matters</h3>
+                    <p class="text-gray-600 text-sm">
+                        Small daily habits can prevent serious problems.
+                        Prevention is always better than cure.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <footer>
+        <div class="footer"><br>
+            <div>
+                <h1>This website is created for health awareness and educational purposes only.
+                    It does not replace professional medical advice.</h1>
+            </div>
+            <br>
+            <div class="Quick-links">
+                <a href="./HealthAware.html">
+                    <p>Home</p>
+                </a>
+                <a href="./Awarenesspage.html">
+                    <p>Awareness</p>
+                </a>
+                <a href="./Addictions.html">
+                    <p>Addiction</p>
+                </a>
+                <a href="./Prevention.html">
+                    <p>Prevention</p>
+                </a>
+                <a href="./Contacts.html">
+                    <p>Contact</p>
+                </a>
+            </div>
+            <div class="email">
+                <p>Email: support@Healthproject.com</p>
+                <p>Help Line: Coming Soon</p>
+            </div>
+
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i
+                    class="fa-brands fa-twitter"></i>
+            </div>
+            <br>
+            <hr class="gold-line">
+            <br>
+
+            <div class="lastFooter">
+                © 2026 Health Awareness Project. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
