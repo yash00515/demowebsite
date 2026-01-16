@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Awareness App | Your Health Partner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            overflow-x: hidden;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fceabb, #f8b500);
+        }
+
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logos {
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            font-size: large;
+        }
+
+        .main1 {
+            display: flex;
+            font-size: larger;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #e8f5e9;
+            height: 90px;
+            width: 100%;
+        }
+
+        nav p {
+            color: rgb(72, 194, 45);
+        }
+
+        p:hover {
+            color: darkgreen;
+        }
+
+        nav p:hover {
+            color: green;
+            transition: 0.4s;
+        }
+
+        .t1 {
+            font-size: 50px;
+        }
+
+        #message {
+            margin-left: 10px;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        .btn1 {
+            border-radius: 10px;
+            height: 47px;
+            width: 180px;
+            background-color: black;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .btn1:hover {
+            color: black;
+            background-color: springgreen;
+            transition: 0.5s;
+        }
+
+        .text1 {
+            margin-left: 10px;
+            font-size: 29px;
+        }
+
+        .text1:active {
+            background-color: darkgoldenrod;
+        }
+
+        .text1:hover {
+            color: rgb(4, 178, 13);
+            transition: 0.5s;
+        }
+
+        .textimg {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .awaremsg {
+            display: flex;
+            justify-content: center;
+            height: 250px;
+        }
+
+        .p1 {
+            font-size: 20px;
+        }
+
+        .q1 {
+            font-size: x-large;
+        }
+
+        .g1 {
+            border-color: darkgoldenrod;
+            color: forestgreen;
+        }
+
+        .mainimg img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .s1 {
+
+            height: 492px;
+            width: 100vw;
+        }
+
+        .a1 {
+            text-align: center;
+        }
+
+        .d1 {
+            text-align: center;
+            font-size: 26px;
+        }
+
+        .tips {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            gap: 10px;
+            background-color: black;
+            color: white;
+        }
+
+
+        .gold-line {
+            height: 1px;
+            background-color: #C5A059;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (max-width:425px) {
+            div {
+                width: 100%;
+                max-width: 600px;
+            }
+
+            .main1 {
+                flex-direction: column;
+                height: auto;
+                gap: 10px;
+                padding: 10px;
+            }
+
+            .menu {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .logos {
+                justify-content: center;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="main1">
+
+            <div class="img">
+                <img class="i1" src="./images/Health_Logo-removebg-preview.png " alt="Logo" height="120px"
+                    width="150px">
+            </div>
+
+            <div class="menu">
+                <p><a href="/index.html">Home</a></p>
+                <p> <a href="Awarenesspage.html">Awareness</a> </p>
+                <p> <a href="/Addictions.html">Addiction</a> </p>
+                <p> <a href="/Prevention.html">Prevention</a> </p>
+                <p> <a href="/Contacts.html">Contact Us</a> </p>
+            </div>
+
+
+            <div class="logos">
+                <i class="fa-solid fa-magnifying-glass" style="color: #63E6BE;"></i>
+                <i class="fa-regular fa-circle-user" style="color: #63E6BE;"></i>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+
+    <main>
+
+        <div class="btn1">
+
+            <h2 id="message"></h2>
+
+        </div>
+        <br>
+        <h1 class="t1">Welcome to HealthAware</h1>
+        <br><br>
+
+        <div class="textimg">
+            <div class="text1">
+                Start with awareness <br>
+                Protect Your Health and Your Future <br>
+                Learn symptoms, risks, and healthy habits that truly matter
+
+
+
+
+            </div>
+            <div class="mainimg">
+                <img src="images/health_home-removebg-preview.png" alt="logo">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="awaremsg">
+
+
+
+            <div class="card text-center mb-3 g1" style="width: 48rem;">
+                <div class="card-body">
+                    <h1 class="card-title">AWARENESS</h1>
+                    <p class="card-text p1"> Awareness is the first step toward a healthy life. <br>
+                        Understanding early symptoms and health risks can help prevent serious problems. <br>
+                        Small lifestyle changes today can protect your health and your family’s future.</p>
+                    <br>
+                    <h1 class="q1">“Prevention • Care”</h1>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 a1">
+            <div class="col">
+                <div class="card">
+                    <img src="images/Awareness.png" class="s1 " alt="img">
+                    <div class="card-body">
+                        <h1 class="card-title">Diseases Awareness</h1>
+                        <p class="card-text">Learn about common diseases and their early symptoms.
+                            Understand possible causes and risk factors.
+                            Know when it is important to consult a doctor. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/Addiction&mental health.png" class="s1" alt="img">
+                    <div class="card-body">
+                        <h1 class=""> Addiction & Mental Health</h1>
+                        <p class="card-text">Understand how addictions affect your body and mind.
+                            Learn about their impact on family and daily life.
+                            Find awareness-based guidance to reduce harmful habits.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/health.png" class="s1" alt="img">
+                    <div class="card-body">
+                        <h1 class="card-title">Prevention & Healthy Living</h1>
+                        <p class="card-text">Discover simple habits to stay healthy every day.
+                            Learn how lifestyle changes can prevent diseases.
+                            Choose prevention to build a healthier future.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div><br>
+        <h1 class="d1">Small habits, big changes: Invest in yourself every day</h1>
+        <div class="tips">
+            <div class="tip">
+                <img src="images/water-removebg-preview.png" height="300px" width="350px" alt="img">
+            </div>
+            <div class="tip">
+                <img src="images/walk-removebg-preview.png" height="300px" width="350px" alt="img">
+            </div>
+            <div class="tip">
+                <img src="images/sleep_img-removebg-preview.png" alt="" height="500px" width="400px" alt="img">
+            </div>
+        </div>
+
+    </main>
+    <br><br>
+    <footer>
+        <div class="footer"><br>
+            <div>
+                <h1>This website is created for health awareness and educational purposes only.
+                    It does not replace professional medical advice.</h1>
+            </div>
+            <br>
+            <div class="Quick-links">
+                <a href="/index.html">
+                    <p>Home</p>
+                </a>
+                <a href="/Awarenesspage.html">
+                    <p>Awareness</p>
+                </a>
+                <a href="/Addictions.html">
+                    <p>Addiction</p>
+                </a>
+                <a href="/Prevention.html">
+                    <p>Prevention</p>
+                </a>
+                <a href="/Contacts.html">
+                    <p>Contact</p>
+                </a>
+            </div>
+            <div class="email">
+                <p>Email: support@Healthproject.com <br>
+                    Help Line: Coming Soon</p>
+            </div>
+
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i
+                    class="fa-brands fa-twitter"></i>
+            </div>
+            <br>
+            <hr class="gold-line">
+            <br>
+
+            <div class="lastFooter">
+                © 2026 Health Awareness Project. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+        
+    <script>
+        let name = prompt("enter your name");
+
+        if (name && name.trim() !== "") {
+            document.getElementById("message").innerText = "Welcome," + name;
+        }
+        else {
+            document.getElementById("message").innerText = "Welcome Guest";
+        }
+    </script>
+
+</body>
+
+</html>
